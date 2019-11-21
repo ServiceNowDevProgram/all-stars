@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="All-Star" max_length="40" name="x_snc_dev_all_star_all_star" type="collection">
+        <element label="CM Points" max_length="40" name="cm_points" type="integer"/>
+        <element label="LN Likes" max_length="40" name="ln_likes" type="integer"/>
+        <element label="LN Posts" max_length="40" name="ln_posts" type="integer"/>
+        <element label="LN Shares" max_length="40" name="ln_shares" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="TW likes" max_length="40" name="tw_likes" type="integer"/>
+        <element label="TW shares" max_length="40" name="tw_shares" type="integer"/>
+        <element label="TW Tweets" max_length="40" name="tw_tweets" type="integer"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

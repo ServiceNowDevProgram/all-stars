@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tw_tweets" label="TW Tweets" language="en" table="x_snc_dev_all_star_all_star">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tw_tweets</element>
+            <help/>
+            <hint/>
+            <label>TW Tweets</label>
+            <language>en</language>
+            <name>x_snc_dev_all_star_all_star</name>
+            <plural>TW Tweets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>andrew.barnes</sys_created_by>
+            <sys_created_on>2019-11-21 19:30:11</sys_created_on>
+            <sys_id>7174240ddbd588108966ff561d96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TW Tweets</sys_name>
+            <sys_package display_value="Collect All-Stars" source="x_snc_dev_all_star">c7fc5045dbd588108966ff561d9619a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Collect All-Stars">c7fc5045dbd588108966ff561d9619a8</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_dev_all_star_all_star_tw_tweets_en</sys_update_name>
+            <sys_updated_by>andrew.barnes</sys_updated_by>
+            <sys_updated_on>2019-11-21 19:30:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
