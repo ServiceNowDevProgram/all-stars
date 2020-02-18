@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service" table="x_snc_dev_all_star_social_media_posts" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LinkedIn</label>
+            <language>en</language>
+            <name>x_snc_dev_all_star_social_media_posts</name>
+            <sequence>1</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2019-11-22 20:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff55b5d9db99c8108966ff561d9619f8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2019-11-22 20:02:33</sys_updated_on>
+            <value>LinkedIn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Twitter</label>
+            <language>en</language>
+            <name>x_snc_dev_all_star_social_media_posts</name>
+            <sequence>2</sequence>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2019-11-22 20:02:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2065f5d9db99c8108966ff561d961939</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2019-11-22 20:02:42</sys_updated_on>
+            <value>Twitter</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service</element>
+            <name>x_snc_dev_all_star_social_media_posts</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>daveslusher-sn</sys_created_by>
+            <sys_created_on>2019-11-22 20:02:10</sys_created_on>
+            <sys_id>7b55b5d9db99c8108966ff561d9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service</sys_name>
+            <sys_package display_value="Collect All-Stars" source="x_snc_dev_all_star">c7fc5045dbd588108966ff561d9619a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Collect All-Stars">c7fc5045dbd588108966ff561d9619a8</sys_scope>
+            <sys_update_name>sys_choice_x_snc_dev_all_star_social_media_posts_service</sys_update_name>
+            <sys_updated_by>daveslusher-sn</sys_updated_by>
+            <sys_updated_on>2019-11-22 20:02:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

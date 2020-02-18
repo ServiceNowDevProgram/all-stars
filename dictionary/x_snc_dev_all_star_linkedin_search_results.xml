@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="LinkedIn Search Results" max_length="40" name="x_snc_dev_all_star_linkedin_search_results" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=commentCount" label="commentCount" max_length="40" name="u_commentcount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=error" label="error" max_length="40" name="u_error" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=likeCount" label="likeCount" max_length="40" name="u_likecount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=postDate" label="postDate" max_length="40" name="u_postdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=postUrl" label="postUrl" max_length="72" name="u_posturl" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=profileUrl" label="profileUrl" max_length="52" name="u_profileurl" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=query" label="query" max_length="133" name="u_query" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=textContent" label="textContent" max_length="1894" name="u_textcontent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=timestamp" label="timestamp" max_length="40" name="u_timestamp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=title" label="title" max_length="77" name="u_title" type="string"/>
+    </element>
+</database>

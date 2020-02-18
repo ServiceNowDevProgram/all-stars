@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>permalink</col_name_string>
+        <index_col_name element="permalink" name="x_snc_dev_all_star_social_media_posts">3798a5dddb59c8108966ff561d9619ee</index_col_name>
+        <logical_table_name>x_snc_dev_all_star_social_media_posts</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-11-22 20:40:27</sys_created_on>
+        <sys_id>f82e75d1dbd9c8108966ff561d96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_dev_all_star_social_media_posts</sys_name>
+        <sys_package display_value="Collect All-Stars" source="x_snc_dev_all_star">c7fc5045dbd588108966ff561d9619a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collect All-Stars">c7fc5045dbd588108966ff561d9619a8</sys_scope>
+        <sys_update_name>sys_index_x_snc_dev_all_star_social_media_posts_permalink</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-22 20:40:27</sys_updated_on>
+        <table display_value="Social Media Posts" name="x_snc_dev_all_star_social_media_posts">0798299ddb59c8108966ff561d96197a</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

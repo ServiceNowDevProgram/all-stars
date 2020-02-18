@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Social Media Posts" max_length="40" name="x_snc_dev_all_star_social_media_posts" type="collection">
+        <element label="Comment count" max_length="40" name="comment_count" type="integer"/>
+        <element label="Content" max_length="10000" name="content" type="string"/>
+        <element label="Like count" max_length="40" name="like_count" type="integer"/>
+        <element label="Permalink" max_length="1024" name="permalink" type="url"/>
+        <element label="Poster" max_length="40" name="poster" type="string"/>
+        <element label="Post time" max_length="40" name="post_time" type="glide_date_time"/>
+        <element choice="3" default="LinkedIn" label="Service" max_length="40" name="service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="LinkedIn" sequence="1" value="LinkedIn"/>
+                <element inactive_on_update="false" label="Twitter" sequence="2" value="Twitter"/>
+            </choice>
+        </element>
+        <element label="Title" max_length="500" name="title" type="string"/>
+        <index name="index">
+            <element name="permalink"/>
+        </index>
+    </element>
+</database>

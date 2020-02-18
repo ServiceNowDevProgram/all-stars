@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Mapping" max_length="40" name="x_snc_dev_all_star_mapping" type="collection">
+        <element label="Target" max_length="40" name="target" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Community" value="community"/>
+                <element inactive_on_update="false" label="Linkedin" value="linkedin"/>
+                <element inactive_on_update="false" label="Share" value="share"/>
+                <element inactive_on_update="false" label="Twitter" value="twitter"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
